@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+*{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BBB;
+    color: #444;
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+    color: #464d52;
+}
+
+#superior {
+    width: 100%;
+    padding: 2% 0px;
+    background-color: #464d52;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    font-size: .9em;
+    line-height: 2;
+    clear: both;
+    background-color: #464d52;
+    color: white;
+    width: 100%;
+}
+
+.boton {
+    background-color: #464d52;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background 3s, color 1s;
+}
+
+.boton:hover {
+    background: #5077c7;
+}
+
+.boton a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    display: block;
+}
+#contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#imgDesc img {
+    width: 50%; /* Ajusta según sea necesario */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#descripcion {
+    width: 45%;
+    text-align: justify;
+    color: #444;
+}
+
+#descripcion p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
